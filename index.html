@@ -1,4 +1,4 @@
-i<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Overmind's Hidden Secret</title>
@@ -17,6 +17,14 @@ i<!DOCTYPE html>
     <button onclick="location.href='https://github.com/NikolaiLobov/tutorial10/blob/main/index.html?request=secret.txt'">
         Retrieve Secret.txt
     </button>
-    <div id="secret-container"></div>
+    <button onclick="openDebug()">The Debugger is here</div>
+    
+    <script>
+    function openDebug() {
+        console.debug("Debug message: Button was clicked!");
+        console.log("Console log: Button clicked.");
+        alert("The Result will be here");
+    }
+</script>
  </body>
 </html>
